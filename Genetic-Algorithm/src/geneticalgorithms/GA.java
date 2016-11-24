@@ -14,10 +14,10 @@ public class GA {
      */
     public static void main(String[] args) {
         Individual rules = new Individual();
-        final int popsize = 50, numberofrules = rules.getNumberofrules(), data = 32, maxGen = 350; //64;
+        final int popsize = 50, numberofrules = rules.getNumberofrules(), data = 32, maxGen = 150; //64;
         Calculate calc = new Calculate();
         String dataFile = "data1.txt";//data1
-        String filename = "F:\\otherz\\New folder\\New folder\\New folder\\New folder\\New folder\\Genetic-Algorithm\\src\\geneticalgorithms\\data.txt";
+        String filename = "F:Genetic-Algorithm\\src\\geneticalgorithms\\data.txt";
         Population pop = new Population(popsize, numberofrules);
         String[] dataset = calc.grabResource(dataFile, data);
         int maxIndividualfitness = 0, maxfitness = 0, average = 1;

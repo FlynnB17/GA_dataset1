@@ -12,13 +12,11 @@ start tournament selection
 Review population repeat until conditions are met
 
 
-RULES aka genes - can have as many of them as you want but they help you classify the 
-entire problem 
-You grab the data and compare it to the data if it matches break
-and move to the next data
-So you're essentially checking if the data can get classified
+RULES aka genes - Needed to classify the problem
+-> grab the data and compare it to the data if it matches break; move to the next data
+-> checking if the data can get classified
 
 
-FITNESS FUNCTION
-IF the first 5 bits match and the 6th does not then move to the next data :'(
+FITNESS FUNCTION DEF
+IF the first 5 bits match and the 6th does not then move to the next data 
 
